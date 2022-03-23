@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>F4Life</title>
+    <link rel="stylesheet" type="text/css" href="css\reset.css" />
+    <link rel="stylesheet" type="text/css" href="css\style.css" />
+    <link rel="stylesheet" type="text/css" href="css\mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css\tablet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="cabecalho">
+        <h1>
+          <img
+            class="logo__img"
+            src="assets\f4life.png"
+            alt="Logo da F4Life aluguéis de repúblicas"
+          />
+        </h1>
+
+        <nav class="navegacao">
+          <ul class="navegacao__linha">
+            <li><a href="#ancoraquemsomos">Quem Somos</a></li>
+            <li><a href="#ancorafaleconosco">Fale Conosco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="ancoraquemsomos" class="quemsomos">
+        <div class="quemsomos__texto">
+          <h2 class="quemsomos__titulo">Quem Somos</h2>
+          <p>
+            F4Life é uma empresa de aluguéis de repúblicas para pessoas
+            universitárias.
+          </p>
+          <br />
+          <p>
+            Similar aos modelos de Quinto Andar e Loft, a empresa realiza
+            reformas e prepara moradias para recepção de pessoas universitárias
+            em um ambiente específico e otimizado para a vida de graduação.
+          </p>
+        </div>
+
+        <div class="quemsomos__imagem">
+          <img
+            class="quemsomos__img"
+            src="assets\quemsomosimagem.jpg"
+            alt="Quatro mãos unidas de pessoas diversas"
+          />
+        </div>
+      </section>
+
+      <section id="ancorafaleconosco" class="faleconosco">
+        <div id="contact" class="faleconosco__contato">
+          <div class="faleconosco__imagem">
+            <img class="contato__img" src="assets\contatoimagem.png" />
+          </div>
+
+          <div class="faleconosco__contato__form">
+            <h2 class="faleconosco__contato__titulo">Fale Conosco</h2>
+            <h3 class="faleconosco__contato__subtexto">
+              Quer entrar em contato com a gente?
+            </h3>
+            <h3 class="faleconosco__contato__subtexto">
+              Preencha o formulário abaixo e entraremos em contato.
+            </h3>
+
+            <form class="form" name="form">
+              <label class="faleconosco__contato__label" for="email"
+                >Email</label
+              >
+              <input
+                class="faleconosco__contato__input"
+                type="email"
+                name="email"
+                placeholder="usuario@dominio.com"
+              />
+              <label class="faleconosco__contato__label" for="mensagem"
+                >Mensagem</label
+              >
+              <textarea
+                type="text"
+                class="faleconosco__contato__textarea"
+                rows="10"
+                cols="40"
+                id="mensagem"
+                name="mensagem"
+              ></textarea>
+              <button
+                class="faleconosco__contato__botao"
+                type="submit"
+                id="submit"
+              >
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a target="_blank" rel="noreferrer" href="https://twitter.com/">
+        <img
+          class="redessociais"
+          src="assets\twitter-icon.png"
+          alt="Ícone do Twitter"
+        />
+      </a>
+
+      <a target="_blank" rel="noreferrer" href="https://facebook.com/">
+        <img
+          class="redessociais"
+          src="assets\facebook-icon.png"
+          alt="Ícone do Facebook"
+      /></a>
+
+      <a target="_blank" rel="noreferrer" href="https://instagram.com/">
+        <img
+          class="redessociais"
+          src="assets\instagram-icon.png"
+          alt="Ícone do Instagram"
+      /></a>
+      <p class="copyright">&copy;Copyright F4Life - 2022</p>
+      <br />
+      <p>Desenvolvido por Diego Hermys</p>
+    </footer>
+    <script src="script\validate.js"></script>
+  </body>
+</html>

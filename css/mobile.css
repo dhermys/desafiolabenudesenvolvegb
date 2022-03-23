@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+  header {
+    text-align: center;
+  }
+
+  header div.cabecalho nav.navegacao {
+    position: static;
+    text-align: center;
+  }
+
+  header ul.navegacao__linha {
+    display: inline-block;
+  }
+
+  header div.cabecalho nav.navegacao li {
+    margin: 0 4px 0 4px;
+  }
+
+  header div.cabecalho nav.navegacao a {
+    font-size: 18px;
+  }
+
+  header div.cabecalho nav.navegacao a:hover {
+    font-size: 19px;
+  }
+
+  section.quemsomos {
+    padding: 0;
+  }
+
+  section.quemsomos div.quemsomos__texto {
+    box-sizing: border-box;
+    width: 100vw;
+  }
+
+  section.quemsomos div.quemsomos__imagem img.quemsomos__img {
+    display: none;
+  }
+
+  section.faleconosco div.faleconosco__contato {
+    padding: 0;
+  }
+
+  section.faleconosco div.faleconosco__imagem img.contato__img {
+    display: none;
+  }
+
+  section.faleconosco div.faleconosco__contato__form {
+    width: 100vw;
+    padding: 15px;
+  }
+
+  section.faleconosco
+    div.faleconosco__contato__form
+    input.faleconosco__contato__input {
+    width: 90vw;
+  }
+
+  section.faleconosco
+    div.faleconosco__contato__form
+    textarea.faleconosco__contato__textarea {
+    width: 90vw;
+  }
+}

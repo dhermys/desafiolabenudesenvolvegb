@@ -1,0 +1,33 @@
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  section.quemsomos {
+    padding: 32px;
+  }
+
+  section.quemsomos div.quemsomos__texto {
+    width: 50vw;
+    padding: 20px;
+  }
+
+  section.quemsomos div.quemsomos__imagem img.quemsomos__img {
+    width: 340px;
+  }
+
+  section.faleconosco div.faleconosco__contato {
+    padding: 32px;
+  }
+
+  section.faleconosco div.faleconosco__imagem img.contato__img {
+    width: 340px;
+  }
+
+  section.faleconosco div.faleconosco__contato__form {
+    width: 50vw;
+    padding: 0 25px 0 20px;
+  }
+
+  section.faleconosco
+    div.faleconosco__contato__form
+    button.faleconosco__contato__botao {
+    margin: 5px 0;
+  }
+}

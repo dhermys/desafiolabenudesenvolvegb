@@ -1,0 +1,182 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+header {
+  background: #132235;
+  height: 130px;
+  padding: 10px 0 5px 0;
+}
+
+header div.cabecalho {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+header div.cabecalho img.logo__img {
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 20px -93px;
+}
+
+header div.cabecalho nav.navegacao {
+  position: absolute;
+  top: 49px;
+  right: 0;
+}
+
+header div.cabecalho nav.navegacao li {
+  display: inline;
+  margin: 0 25px 0 0;
+}
+
+header div.cabecalho nav.navegacao a {
+  text-transform: uppercase;
+  color: #6ddad3;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header div.cabecalho nav.navegacao a:hover {
+  color: #3c737b;
+  font-size: 21px;
+}
+
+section.quemsomos {
+  display: flex;
+  padding: 64px;
+  justify-content: center;
+}
+
+section.quemsomos div.quemsomos__texto {
+  display: flex;
+  width: 35vw;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #132235;
+  border: 20px solid #6ddad3;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+section.quemsomos div.quemsomos__texto h2.quemsomos__titulo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+section.quemsomos div.quemsomos__imagem img.quemsomos__img {
+  display: block;
+  width: 464px;
+  height: 570px;
+}
+
+section.faleconosco {
+  background-color: #132235;
+}
+
+section.faleconosco div.faleconosco__contato {
+  display: flex;
+  padding: 64px;
+  justify-content: center;
+}
+
+section.faleconosco div.faleconosco__imagem img.contato__img {
+  display: block;
+  width: 464px;
+  height: 570px;
+}
+
+section.faleconosco div.faleconosco__contato__form {
+  display: flex;
+  width: 35vw;
+  flex-direction: column;
+  padding: 0 0 0 20px;
+}
+
+section.faleconosco
+  div.faleconosco__contato__form
+  h2.faleconosco__contato__titulo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 0 0 10px 0;
+}
+
+section.faleconosco
+  div.faleconosco__contato__form
+  h3.faleconosco__contato__subtexto {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+}
+
+section.faleconosco
+  div.faleconosco__contato__form
+  label.faleconosco__contato__label {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+section.faleconosco
+  div.faleconosco__contato__form
+  input.faleconosco__contato__input {
+  border: transparent;
+  height: 56px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+section.faleconosco
+  div.faleconosco__contato__form
+  textarea.faleconosco__contato__textarea {
+  border: transparent;
+  margin: 10px 0;
+  padding: 5px 10px;
+  height: 150px;
+  width: 100%;
+}
+
+section.faleconosco
+  div.faleconosco__contato__form
+  button.faleconosco__contato__botao {
+  border: transparent;
+  background-color: #2a7ae4;
+  margin: 25px 0;
+  color: #ffffff;
+  padding: 10px;
+}
+
+section.faleconosco
+  div.faleconosco__contato__form
+  button.faleconosco__contato__botao:hover {
+  background: darkorange;
+  margin-left: 15px;
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer a img.redessociais {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
